@@ -1,4 +1,4 @@
-import { getImageUrl } from './utils.js'
+import { getImageUrl1 } from './utils.js'
 
 export default function Profile({ personData }) {
   const { name, imageUrl, profession, award, discovered } = personData
@@ -6,7 +6,7 @@ export default function Profile({ personData }) {
   return (
     <section className='profile'>
       <h2>{name}</h2>
-      <img className='avatar' src={getImageUrl(imageUrl)} alt={name} width={70} height={70} />
+      <img className='avatar' src={getImageUrl1(imageUrl)} alt={name} width={70} height={70} />
       <ul>
         <li>
           <b>Profession: </b>
