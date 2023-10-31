@@ -1,5 +1,5 @@
-import React from 'react'
 import TodoList from './TodoList'
+import './styles.css'
 
 export default function JavascriptInJSXWithCurlyBraces() {
   return (
