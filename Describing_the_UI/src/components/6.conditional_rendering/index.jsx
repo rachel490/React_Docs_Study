@@ -1,3 +1,4 @@
+import DrinkList from './DrinkList'
 import PackingList from './PackingList'
 
 export default function ConditionalRendering() {
@@ -5,6 +6,7 @@ export default function ConditionalRendering() {
     <div>
       <h2>Conditional Rendering</h2>
       <PackingList />
+      <DrinkList />
     </div>
   )
 }
