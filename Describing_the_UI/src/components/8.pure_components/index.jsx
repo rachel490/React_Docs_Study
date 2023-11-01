@@ -1,4 +1,5 @@
 import Clock from './Clock'
+import ProfileList from './ProfileList'
 import './styles.css'
 
 export default function KeepingComponentsPure() {
@@ -9,6 +10,7 @@ export default function KeepingComponentsPure() {
     <div>
       <h2>Keeping Components Pure</h2>
       <Clock time={currentTime} />
+      <ProfileList />
     </div>
   )
 }
