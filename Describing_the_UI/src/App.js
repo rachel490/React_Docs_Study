@@ -5,6 +5,7 @@ import JavascriptInJSXWithCurlyBraces from './components/4.javascript_in_jsx'
 import PassingPropsToAComponent from './components/5.passing_props'
 import ConditionalRendering from './components/6.conditional_rendering'
 import RenderingLists from './components/7.rendering_lists'
+import KeepingComponentsPure from './components/8.pure_components'
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       {/* <JavascriptInJSXWithCurlyBraces /> */}
       {/* <PassingPropsToAComponent /> */}
       {/* <ConditionalRendering /> */}
-      <RenderingLists />
+      {/* <RenderingLists /> */}
+      <KeepingComponentsPure />
     </div>
   )
 }
