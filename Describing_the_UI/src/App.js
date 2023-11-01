@@ -4,6 +4,7 @@ import WritingMarkupWithJSX from './components/3.writing_markup_with_jsx'
 import JavascriptInJSXWithCurlyBraces from './components/4.javascript_in_jsx'
 import PassingPropsToAComponent from './components/5.passing_props'
 import ConditionalRendering from './components/6.conditional_rendering'
+import RenderingLists from './components/7.rendering_lists'
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       {/* <WritingMarkupWithJSX /> */}
       {/* <JavascriptInJSXWithCurlyBraces /> */}
       {/* <PassingPropsToAComponent /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <RenderingLists />
     </div>
   )
 }
